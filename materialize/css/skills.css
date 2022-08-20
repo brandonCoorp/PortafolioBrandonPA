@@ -1,0 +1,151 @@
+.seccionSkill{
+    height: 100vh;
+  
+}
+.rowskill{
+ 
+}
+.vtabs{
+    position: relative;
+    line-height: 5vh;
+    
+    padding: 2em;
+    margin: 0 auto;
+}
+.contentcard{
+    position: relative;
+}
+.vtabs input{
+    display: none;
+}
+.vtabs label{ 
+    display: block;
+    width: 50%;
+    color: #a2a2a2;
+   padding: 1.5em;
+
+    font-size: 14px;
+    border-left: 5px solid #c7bbbb;
+    transition: .5s ease;
+}
+.vtabs h2{
+ color:white;
+ font-size: 2em;
+}
+.vtabs label:hover{ 
+   cursor: pointer;
+   color: #ffffff;
+}
+
+.vtabs input:checked + label{
+    color: #00c4ff;
+    border-left: 5px solid #00c4ff;
+}
+
+.vtabs #tabb1:checked ~ .vtab-content #contentt1,
+.vtabs #tabb2:checked ~ .vtab-content #contentt2,
+.vtabs #tabb3:checked ~ .vtab-content #contentt3,
+.vtabs #tabb4:checked ~ .vtab-content #contentt4,
+.vtabs #tabb5:checked ~ .vtab-content #contentt5{
+    display: block;
+}
+
+.vtabs .vtab-content{
+    position:absolute;
+    top: 0%;
+    max-width: 65%;
+    right: 20px;
+    margin-right: 3em;
+}
+.vtabs .vtab-content .prueba{
+   
+    display: none
+  
+}
+
+
+
+
+
+.imagencard{
+   
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10%;
+    margin-left: 2em;
+  }
+  .ImgSkill {
+      width: 100%;
+      height: 100%;
+    
+    }
+
+    .ImgSkills {
+        margin-top: 10%;
+        width: 100%;
+        height: 100%;
+      
+      }
+  .imgTamaño{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 2em;
+  }
+  .imgTamaños{
+    width: 90px;
+    height: 70px;
+    margin-bottom: 2em;
+  }
+
+  .prueba{
+    box-shadow:5px;
+   
+    border-radius: 2%;
+  }
+
+  
+@media screen and (max-width:700px){
+    .vtabs .vtab-content {
+        position: relative;
+        top: 5%;
+        max-width: 100%;
+        margin-top: 80px;
+         right: 0px; 
+         margin-right: 0%; 
+         margin-top: 5% !important;
+    }
+
+    .vtabs label {
+        display: initial; 
+        width: 50%;
+        color: #a2a2a2;
+        padding: 1em;
+        font-size: 12px;
+        border-top: 5px solid #c7bbbb;
+        transition: .5s ease;
+        border-left: 0px ;
+        
+    }
+    .vtabs input:checked + label{
+       
+        border-left: 0px ;
+        border-top: 5px solid #00c4ff;
+    }
+  }
+
+  @media screen and (max-width:460px){
+    
+    .row .col.s2 {
+      
+        height: 10%;
+    }
+    .vtabs label {
+        
+        padding: 0.3em;
+       
+        
+    }
+   
+  }

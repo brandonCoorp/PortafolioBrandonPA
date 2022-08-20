@@ -1,0 +1,185 @@
+.proyectos{
+   
+}
+
+.proyectos h2{
+    color: #23394d;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 2em;
+}
+
+
+.flex-card{
+    display: flex;
+   
+    border: solid rgb(255, 253, 253);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardflex{
+    width: 300px;
+    margin: 30px;
+}
+
+.cardProyecto{
+   
+    height: 50%;
+}
+
+.cardPrinProyecto{
+    max-width: 300px;
+}
+.card{
+  background-color: #23394d;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 15px;
+ 
+  backdrop-filter: blur(5px);
+}
+.card-reveal{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(42, 37, 37, 0.618) !important;
+    
+    backdrop-filter: blur(5px);
+}
+
+.card-reveal span{
+    color: #00c4ff;
+    font-variant: small-caps;
+}
+
+.card-reveal p{
+    color: rgba(255, 255, 255, 0.735);
+}
+
+
+
+
+
+/*shapedividerapp*/
+
+.custom-shape-divider-top-1660920923 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1660920923 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1660920923 .shape-fill {
+    fill: #151C50;
+}
+
+
+/*shapedividerapp*/
+.custom-shape-divider-bottom-1660921558 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1660921558 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 124px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1660921558 .shape-fill {
+    fill: #23394D;
+}
+
+.custom-shape-divider-bottom-1660924036 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1660924036 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 36px;
+}
+
+.custom-shape-divider-bottom-1660924036 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+.custom-shape-divider-top-1660924187 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1660924187 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 36px;
+}
+
+.custom-shape-divider-top-1660924187 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1660924187 .shape-fill {
+    fill: #23394D;
+}
+
+.custom-shape-divider-bottom-1660930809 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1660930809 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 46px;
+}
+
+.custom-shape-divider-bottom-1660930809 .shape-fill {
+    fill: #23394D;
+}
+
+@media screen and (max-width:480px){
+    
+    .proyectos h2 {
+       font-size: 2em;
+       margin-top: 3em;
+    }
+   
+  }

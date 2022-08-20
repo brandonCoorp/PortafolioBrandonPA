@@ -1,0 +1,274 @@
+
+.otro{
+    color: rgb(43, 43, 179);
+}
+/*stilos nav*/
+
+.rownav{
+  margin-bottom: 0%;
+}
+
+.brand-logo{
+  width: 5em;
+}
+.contactos{
+  background-color: #23394d;
+}
+.navegador{
+    background-color:#23394d;
+    padding: 0% !important;
+}
+
+.logo{
+  padding-left: 5%;
+}
+.navUlMovil {
+    background-color: #23394d;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s all ease;
+  }
+
+.navUlMovil li a:link {
+    color: rgb(42, 119, 29);
+  }
+.navLiMovil {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navAMovil{
+    width: 100%;
+    color: white !important;;
+}
+/*--------------------------------------*/
+
+/* video slider  */
+
+.video-container 
+{
+  top: 0%;
+  left: 0%;
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #23394d;
+}
+video.fillWidth {
+  width: 100%;
+}
+
+
+.letraVideo{
+    position:absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.nombre{
+    font-variant: small-caps;
+    margin-top: 4%;
+}
+
+.letravideop{
+    font-style: italic;
+}
+.letravideopp{
+  font-family:Brush Script MT,arial,helvética; font-size: 24px;
+}
+.divImagen{
+   
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.ImgCircular {
+    width: 100%;
+    height: auto;
+  
+  }
+/*----------------------------*/
+/*Style Contenido Sobre Mi*/
+  .sectionContainer{
+    top: 0%;
+    left: 0%;
+    height: 45.75rem;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 0% !important;
+}
+
+.sectionContainer h1{
+    color: #23394d;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.sectionContainer p{
+  
+  color: #23394d;
+}
+.divSobreMi{
+    position: relative;
+   height: 100%;
+   
+   top: 20%;
+   align-items: center;
+   text-align: center;
+}
+
+.custom-shape-divider-top-1660920923 .shape-fill {
+  fill: #23394d !important;
+}
+
+
+.sectionContainer .divImagen{
+    display:block;
+    margin:auto;
+    width: 350px;
+  height: 350px;
+    color: aqua;
+}
+
+.sectionContainer p{
+   
+    text-align: center;
+    font-variant: italic;
+    opacity: .8;
+}
+
+.sectionContainerSkill{
+    top: 0%;
+    left: 0%;
+    height: 45.75rem;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #23394d;
+}
+
+.sectionContainerSkill .divImagen{
+    display:block;
+    margin:auto;
+    width: 350px;
+  height: 350px;
+    color: aqua;
+}
+
+.sectionContainerSkill h1{
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.sectionContainerSkill p{
+    color: white;
+    text-align: center;
+    font-variant: italic;
+    opacity: .8;
+}
+
+@media screen and (max-width:700px){
+  .nombre{
+    
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 0.2em;
+  }
+
+  .divImagen{
+    width: 150px;
+    height: 150px;
+  }
+  .letravideop{
+    font-size: 10px;
+    margin-top: 1px ;
+  }
+
+  .video-container 
+{
+  
+  height: 250px;
+  width: 100%;
+ 
+}
+/*sobre mi*/
+  .sobremi{
+    width: 80% !important;
+  }
+  .imgsobremi{
+    width: 0% !important;
+  }
+
+  .divImagensobremi{
+    width: 0px;
+    height: 0px;
+  }
+  .ImgCircularsobremi {
+    width: 0%;
+    height: 0%;
+  
+  }
+  .sectionContainer h1{
+   font-size: 2rem;
+}
+
+.sectionContainer p{
+  font-size: 0.9rem;
+  margin: 14px;
+}
+}
+
+@media screen and (max-width:410px){
+  .nombre{
+    
+    font-size: 1rem;
+    margin-top: 0%;
+    margin-bottom: 0.1em;
+  }
+
+  .divImagen{
+    width: 100px;
+    height: 100px;
+  }
+  .letravideop{
+    font-size: 8px;
+    margin-top: 1px ;
+  }
+
+  .video-container 
+{
+  
+  height: 150px;
+  width: 100%;
+ 
+}
+}
+
+
+@media screen and (max-width:900px){
+  .sectionContainer p{
+    margin: 6px;
+  }
+}
+
