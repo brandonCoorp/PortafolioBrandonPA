@@ -393,38 +393,31 @@
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" class="row">
           <div class="col s6 formContacto">
-          <form class="col s12">
+          <form id="formu" class="col s12" action="https://formspree.io/f/xjvzkbvb" method="post">
             <div class="row">
               <div class="input-field col s12">
-                <input  id="nombre" type="text" class="validate inputcontact">
+                <input  id="nombre" name="name" type="text" class="validate inputcontact">
                 <label for="nombre">Nombre</label>
               </div>
             </div>
             
             <div class="row">
               <div class="input-field col s12">
-                <input  id="correo" type="text" class="validate inputcontact">
+                <input  id="correo" type="text" name="email" class="validate inputcontact">
                 <label for="correo">Correo Electrónico</label>
               </div>
             </div>
             
             <div class="row">
               <div class="input-field col s12">
-                <input  id="telefono" type="text" class="validate inputcontact">
-                <label for="telefono">Teléfono</label>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea id="textarea1" class="materialize-textarea validate inputcontact"></textarea>
+                <textarea id="textarea1" name="message" class="materialize-textarea validate inputcontact"></textarea>
                 <label for="textarea1">Escribe tu Mensaje para Mi</label>
               </div>
             </div>
             <div class="row">
-              <div class="input-field col s12">
-                <a id="mensaje" class="waves-effect waves-light btn-large"> <i class="material-icons right">send</i>enviar</a>
-              </div>
+              <button class="btn waves-effect waves-light enviar" type="submit" id="enviar" name="action">enviar
+                <i class="material-icons right">send</i>
+              </button>
             </div>
           </form>
         </div>
@@ -474,6 +467,8 @@
     AOS.init({
         duration :1300,
     });
+    
+    
   </script>
  </body>
 </html>
